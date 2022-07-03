@@ -1,0 +1,34 @@
+h1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(42, 42, 165);
+    text-align: center;
+}
+
+td {
+    background-color: white;
+}
+
+body {
+    background-image: url(../images/background2.jpg);
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+header {
+    background-color: #000080;
+    color: #fffaff;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid #fffaff;
+}
+
+.nav {
+    background-color: #fffaff;
+    border: solid #000080;
+    font-size: 20px;
+}
+
+.nav th {
+    border: solid #000080;
+    padding: 5px;
+}

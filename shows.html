@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Laura's Webpage - Favourite Shows & Movies</title>
+    <script src="https://kit.fontawesome.com/fda60026bc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/navbar.css">
+
+    <style>
+        th {
+            color: red;
+        }
+        
+        p {
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body background="./images/background.png">
+    <div id="nav">
+        <table>
+            <tr>
+
+                <th> <a href="./index.html"><i class="fa-solid fa-house"></i>Home</a></th>
+                <th class="active"> <a href="./shows.html"><i class="fa-solid fa-gamepad"></i>Shows</a></th>
+                <th> <a href="./projects.html"><i class="fa-solid fa-briefcase"></i>Projects</a> </th>
+                <th> <a href="./school.html"><i class="fa fa-book"></i>School</a>
+            </tr>
+        </table>
+    </div>
+    <div id="summary">
+        <table border="1">
+            <tr>
+                <!--This is row 1, normally used for headers-->
+                <th>Movies</th>
+                <th>Shows</th>
+            </tr>
+            <tr>
+                <!--This is for row 2-->
+                <td><img src="./images/encanto.jpg" height="100px" /></td>
+                <td><img src="./images/spongebob.png" height="100px" /></td>
+            </tr>
+        </table>
+    </div>
+    <div id="movies">
+        <h1 style="text-align: center;">Movies</h1>
+        <p>Encanto</p>
+        <img src="./images/encanto.jpg" height="100px" />
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CaimKeDcudo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Why I like Encanto: It's cool</p>
+    </div>
+    <div id="shows">
+        <h1 style="text-align: center;">Shows</h1>
+        <p><b>SpongeBob Squarepants</b></p>
+        <img src="./images/spongebob.png" height="100px" />
+        <p>Why I like SPongeBob: It's funny</p>
+    </div>
+</body>
+
+</html>
